@@ -1,0 +1,230 @@
+{
+    "Associates": {
+        "requirements": [
+            "PathwayConnect",
+            "Certificate1",
+            "Certificate2",
+            "Religion",
+            "GeneralEducationAS"
+        ]
+    },
+
+    "Bachelors": {
+        "requirements": [
+            "Associates",
+            "Certificate3",
+            "GeneralEducationBS"
+        ]
+    },
+
+    "PathwayConnect": {
+        "PC101": {
+            "prerequisites": null,
+            "credits": 3,
+            "completed": true
+        },
+        "PC102": {
+            "prerequisites": ["PC101"],
+            "credits": 3,
+            "completed": true
+        },
+        "PC103": {
+            "prerequisites": ["PC102"],
+            "credits": 1,
+            "completed": true
+        }
+    },
+
+    "Certificate1": {
+        "CSE110": {
+            "prerequisites": null,
+            "credits": 2,
+            "completed": true
+        },
+        "CSE111": {
+            "prerequisites": ["CSE110"],
+            "credits": 2,
+            "completed": false
+        },
+        "CSE210": {
+            "prerequisites": ["CSE111"],
+            "credits": 2,
+            "completed": true
+        },
+        "WDD130": {
+            "prerequisites": null,
+            "credits": 2,
+            "completed": false
+        },
+        "WDD131": {
+            "prerequisites": ["WDD130"],
+            "credits": 2,
+            "completed": true
+        },
+        "WDD231": {
+            "prerequisites": ["WDD131"],
+            "credits": 2,
+            "completed": true
+        }
+    },
+
+    "Certificate2": {
+        "ITM111": {
+            "prerequisites": null,
+            "credits": 3,
+            "completed": true
+        },
+        "WDD330": {
+            "prerequisites": ["WDD231"],
+            "credits": 3,
+            "completed": false
+        },
+        "CSE340": {
+            "prerequisites": ["WDD231"],
+            "credits": 3,
+            "completed": false
+        },
+        "CSE341": {
+            "prerequisites": null,
+            "credits": 3,
+            "completed": false
+        },
+        "WDD430": {
+            "prerequisites": ["WDD330", "CSE341"],
+            "credits": 3,
+            "completed": false
+        }
+    },
+
+    "Certificate3": {
+        "CSE212": {
+            "prerequisites": ["CSE210"],
+            "credits": 2,
+            "completed": false
+        },
+        "CSE270": {
+            "prerequisites": ["CSE212", "CSE111"],
+            "credits": 3,
+            "completed": false
+        },
+        "CSE300": {
+            "prerequisites": ["CSE212"],
+            "credits": 1,
+            "completed": false
+        },
+        "CSE310": {
+            "prerequisites": ["CSE212", "CSE210"],
+            "credits": 3,
+            "completed": false
+        },
+        "CSE325": {
+            "prerequisites": ["CSE212", "WDD130", "WDD430"],
+            "credits": 3,
+            "completed": false
+        },
+        "CSE370": {
+            "prerequisites": ["CSE310"],
+            "credits": 2,
+            "completed": false
+        }
+    },
+
+    "GeneralEducationAS": {
+        "ENGL150": {
+            "prerequisites": null,
+            "credits": 3,
+            "completed": true
+        },
+        "MATH108X": {
+            "prerequisites": null,
+            "credits": 3,
+            "completed": true
+        },
+        "GS170": {
+            "prerequisites": null,
+            "credits": 1,
+            "completed": true
+        },
+        "BUS301": {
+            "prerequisites": null,
+            "credits": 3,
+            "completed": false
+        }
+    },
+
+    "GeneralEducationBS": {
+        "BUS321": {
+            "prerequisites": null,
+            "credits": 3,
+            "completed": false
+        },
+        "CSE499": {
+            "prerequisites": ["CSE310"],
+            "credits": 3,
+            "completed": false
+        },
+        "FSC160": {
+            "prerequisites": null,
+            "credits": 3,
+            "completed": false
+        },
+        "GESCI110": {
+            "prerequisites": null,
+            "credits": 3,
+            "completed": false
+        },
+        "HUM110": {
+            "prerequisites": null,
+            "credits": 3,
+            "completed": false
+        },
+        "PUBH132": {
+            "prerequisites": null,
+            "credits": 3,
+            "completed": false
+        },
+        "PEACE101": {
+            "prerequisites": null,
+            "credits": 3,
+            "completed": false
+        }
+    },
+
+    "Religion": {
+        "REL200": {
+            "prerequisites": null,
+            "credits": 2,
+            "completed": true
+        },
+        "REL225": {
+            "prerequisites": null,
+            "credits": 2,
+            "completed": true
+        },
+        "REL250": {
+            "prerequisites": null,
+            "credits": 2,
+            "completed": true
+        },
+        "REL275": {
+            "prerequisites": null,
+            "credits": 2,
+            "completed": true
+        },
+        "REL280": {
+            "prerequisites": null,
+            "credits": 2,
+            "completed": true
+        },
+        "REL290": {
+            "prerequisites": null,
+            "credits": 2,
+            "completed": true
+        },
+        "REL333": {
+            "prerequisites": null,
+            "credits": 2,
+            "completed": true
+        }
+    }
+}

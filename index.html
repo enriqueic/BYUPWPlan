@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathway Progress Simulator</title>
+    <link href="base.css" rel="stylesheet">
+    <script type="module" src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Pathway Progress Simulator</h1>
+    </header>
+
+    <main>
+        <div class="form-group">
+            <label for="country-select">Select certificate or degree:</label>
+            <select id="country-select">
+                <option value="Associates">Associates</option>
+                <option value="Bachelors">Bachelors</option>
+                <option value="Certificate1">Certificate 1</option>
+                <option value="Certificate2">Certificate 2</option>
+                <option value="Certificate3">Certificate 3</option>
+            </select>
+            Term: <input type="number" id="term-input" min="1" max="6" value="5">
+
+            <button>Submit</button>
+            
+        </div>
+        
+        <div id="modal" style="display:none; position:fixed; top:30%; left:50%; transform:translate(-50%, -50%);
+          background:white; border:2px solid #333; padding:2rem; z-index:1000;">
+            <span id="modal-message"></span>
+            <br><br>
+            <button id="close-modal">Close</button>
+        </div>
+
+        <section>
+        </section>
+
+        <div id="completed-classes-container" style="margin:1rem;"></div>
+
+    <footer>
+    </footer>
+</body>
+</html>
