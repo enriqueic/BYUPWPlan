@@ -130,7 +130,7 @@
     },
 
     "GeneralEducationAS": {
-        "WRIT101": {
+        "ENG150": {
             "prerequisites": null,
             "credits": 3,
             "completed": true
