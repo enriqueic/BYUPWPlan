@@ -44,7 +44,7 @@
         "CSE111": {
             "prerequisites": ["CSE110"],
             "credits": 2,
-            "completed": false
+            "completed": true
         },
         "CSE210": {
             "prerequisites": ["CSE111"],
@@ -92,7 +92,7 @@
         "WDD430": {
             "prerequisites": ["WDD330", "CSE341"],
             "credits": 3,
-            "completed": false
+            "completed": true
         }
     },
 
@@ -130,7 +130,7 @@
     },
 
     "GeneralEducationAS": {
-        "ENGL150": {
+        "WRIT101": {
             "prerequisites": null,
             "credits": 3,
             "completed": true
@@ -146,7 +146,7 @@
             "completed": true
         },
         "BUS301": {
-            "prerequisites": null,
+            "prerequisites": "WRIT101",
             "credits": 3,
             "completed": false
         }
