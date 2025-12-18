@@ -146,7 +146,7 @@
             "completed": true
         },
         "BUS301": {
-            "prerequisites": "WRIT101",
+            "prerequisites": null,
             "credits": 3,
             "completed": false
         }
