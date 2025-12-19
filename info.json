@@ -77,7 +77,7 @@
         "WDD330": {
             "prerequisites": ["WDD231"],
             "credits": 3,
-            "completed": false
+            "completed": true
         },
         "CSE340": {
             "prerequisites": ["WDD231"],
@@ -92,7 +92,7 @@
         "WDD430": {
             "prerequisites": ["WDD330", "CSE341"],
             "credits": 3,
-            "completed": true
+            "completed": false
         }
     },
 
@@ -133,7 +133,7 @@
         "ENG150": {
             "prerequisites": null,
             "credits": 3,
-            "completed": true
+            "completed": false
         },
         "MATH108X": {
             "prerequisites": null,

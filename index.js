@@ -87,11 +87,11 @@ document.addEventListener("DOMContentLoaded", () => {
             completedClassesContainer.innerHTML = "<div style='color:gray;'>None yet</div>";
         } else {
             let html = '<div style="display:flex;gap:2rem;flex-wrap:wrap;">';
-            for (let i = 0; i < completed.length; i += 4) {
-                let colTerm = ((term + Math.floor(i / 4) - 1) % 6) + 1;
+            for (let i = 0; i < completed.length; i += 5) {
+                let colTerm = ((term + Math.floor(i / 5) - 1) % 6) + 1;
                 html += `<div style="min-width:120px;">
                             <h3 style="margin-top:0;">Term ${colTerm}</h3>`;
-                for (let j = i; j < i + 4 && j < completed.length; j++) {
+                for (let j = i; j < i + 5 && j < completed.length; j++) {
                     html += `<div>${completed[j]}</div>`;
                 }
                 html += '</div>';
