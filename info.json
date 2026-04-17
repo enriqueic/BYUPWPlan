@@ -82,7 +82,7 @@
         "CSE340": {
             "prerequisites": ["WDD231"],
             "credits": 3,
-            "completed": false
+            "completed": true
         },
         "CSE341": {
             "prerequisites": null,
